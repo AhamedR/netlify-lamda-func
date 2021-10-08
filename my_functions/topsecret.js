@@ -1,7 +1,7 @@
-import express from 'express'
-import cors from 'cors'
-import axios from 'axios'
-import FormData from 'form-data'
+const express = require('express')
+const cors = require('cors')
+const axios = require('axios')
+const FormData = require('form-data')
 
 const app = express()
 
