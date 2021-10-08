@@ -53,6 +53,10 @@ const solutions = {
 }
 
 const runEntry = (body) => {
+  return {
+    statusCode: 200,
+    body: JSON.stringify({ error: 'test', body })
+  }
   cookie = body?.cookie || ''
   automation = body?.auto || 'no'
 
